@@ -738,7 +738,7 @@ img.aligncenter {
 	padding: 16px 43px;
 	-webkit-transition: all ease .3s;
 	transition: all ease .3s;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 .btn-default:focus,
@@ -828,7 +828,7 @@ body.boxed-v #wrapper {
 .main-heading .heading {
 	color: #333;
 	margin: 0 0 18px;
-	font: 700 28px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 28px/30px 'Poppins', sans-serif;;
 }
 
 .main-heading p {
@@ -927,7 +927,7 @@ body.boxed-v #wrapper {
 	position: absolute;
 	-webkit-transition: all ease .3s;
 	transition: all ease .3s;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 #nav .nav-list {
@@ -962,7 +962,7 @@ body.boxed-v #wrapper {
 
 .top-list {
 	margin: 0;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 #footer .row{
 	display: flex;
@@ -1048,7 +1048,7 @@ body.boxed-v #wrapper {
 .main-banner .heading {
 	color: #fff;
 	margin: 0 0 18px;
-	font: 700 48px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 48px/60px 'Poppins', sans-serif;;
 }
 
 .main-banner .divider {
@@ -1076,7 +1076,7 @@ body.boxed-v #wrapper {
 	color: #fff;
 	display: block;
 	letter-spacing: 1px;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 .main-banner .btn-play {
@@ -1101,7 +1101,7 @@ body.boxed-v #wrapper {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 .main-banner .img-holder {
@@ -1224,7 +1224,7 @@ body.boxed-v #wrapper {
 	color: #333;
 	display: block;
 	margin: 0 0 3px;
-	font: 700 28px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 28px/30px 'Poppins', sans-serif;;
 }
 
 .quote-form .form-title {
@@ -1353,14 +1353,14 @@ body.boxed-v #wrapper {
 .about-box .num {
 	display: block;
 	margin: 0 0 34px;
-	font: 700 28px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 28px/17px 'Poppins', sans-serif;;
 }
 
 .about-box .title {
 	display: block;
 	color: #333;
 	margin: 0 0 19px;
-	font: 700 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 18px/20px 'Poppins', sans-serif;;
 }
 
 .about-box .divider {
@@ -1369,7 +1369,7 @@ body.boxed-v #wrapper {
 }
 
 .about-box .more {
-	font: 700 12px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 12px/20px 'Poppins', sans-serif;;
 }
 
 .about-box p {
@@ -1394,7 +1394,7 @@ body.boxed-v #wrapper {
 
 .counter-section .txt {
 	display: block;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 /*------------------------------------------------------------------
@@ -1486,7 +1486,7 @@ body.boxed-v #wrapper {
 .services-section .services-box .title {
 	display: block;
 	margin: 0 0 15px;
-	font: 700 18px/24px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 18px/24px 'Poppins', sans-serif;;
 }
 
 .services-section .txt-box {
@@ -1504,7 +1504,7 @@ body.boxed-v #wrapper {
 .services-section .txt-box .list {
 	color: #777;
 	font-weight: bold;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 .services-section .txt-box .list .fa {
@@ -1541,7 +1541,7 @@ body.boxed-v #wrapper {
 	color: #333;
 	display: block;
 	font-size: 14px;
-	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;;
 }
 
 .price-box .price-txt {
@@ -1584,7 +1584,7 @@ body.boxed-v #wrapper {
 .price-box h3 {
 	color: #333;
 	margin: 0 0 19px;
-	font: 700 18px/24px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 18px/24px 'Poppins', sans-serif;;
 }
 
 .price-box .divider {
@@ -1593,7 +1593,7 @@ body.boxed-v #wrapper {
 }
 
 .price-box .order {
-	font: 700 16px/16px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 16px/16px 'Poppins', sans-serif;;
 }
 
 /*------------------------------------------------------------------
@@ -1612,7 +1612,7 @@ body.boxed-v #wrapper {
 
 .quote-section h2 {
 	margin: 0 0 23px;
-	font: 700 48px/69px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 48px/69px 'Poppins', sans-serif;;
 }
 
 .quote-section p {
@@ -1837,6 +1837,49 @@ body.boxed-v #wrapper {
 }
 .about-section.pad-bottom-sm{
 	padding-bottom: 0 !important;
+}
+.accordion-header.accordion-header{
+	margin-top: 0 !important;
+}
+.faq-section .accordion .accordion-item{
+	border: none !important;
+	box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
+    -webkit-box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
+    -moz-box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
+	margin-bottom: 25px !important;
+	border-radius: 6px !important;
+
+	background: #ffcca1 !important;
+    border-radius: 20px !important;
+}
+.faq-section .accordion .accordion-body{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.faq-section .accordion .accordion-button{
+	font-size: 20px;
+	background: transparent !important;
+	padding: 25px 21px;
+	border-radius: 6px;
+	border: none !important;
+	box-shadow: none !important;
+    font-weight: 600;
+	color: #333 !important;
+	/* border-top-right-radius: 6px !important;
+	border-top-left-radius: 6px !important; */
+}
+.faq-section .accordion{
+	max-width: 850px;
+    margin: auto;
+}
+.faq-section h2.main-color{
+	font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.faq-section{
+	padding: 60px 0 100px 0;
 }
 @media (min-width: 768px) {
 	.commentlist-item .commentlist-item {
