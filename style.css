@@ -1843,14 +1843,26 @@ body.boxed-v #wrapper {
 }
 .faq-section .accordion .accordion-item{
 	border: none !important;
-	box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
-    -webkit-box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
-    -moz-box-shadow: 0 10px 60px 0 rgba(10,0,48,.08);
+	box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
+    -webkit-box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
+    -moz-box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
 	margin-bottom: 25px !important;
-	border-radius: 6px !important;
+	border-radius: 10px !important;
 
-	background: #ffcca1 !important;
-    border-radius: 20px !important;
+	/* background: #ffcca1 !important;
+    border-radius: 20px !important; */
+}
+.faq-section .accordion .accordion-button::after{
+	content: '\f078';
+    font-family: 'FontAwesome';
+    background: none !important;
+    position: absolute;
+	right: 30px;
+    top: 29px;
+    width: 14px;
+    height: 14px;
+    font-size: 15px;
+    color: #ff7400;
 }
 .faq-section .accordion .accordion-body{
 	padding-left: 25px;
