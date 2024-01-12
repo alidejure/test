@@ -262,6 +262,9 @@
     font-size: 27px;
     margin-top: 0;
   }
+  .about-section.pad-top-lg, .price-section.pad-top-lg{
+    padding-top: 70px !important;
+  }
 }
 @media only screen and (max-width: 480px){
   #footer .top-list{
