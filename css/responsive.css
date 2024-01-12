@@ -29,7 +29,7 @@
     line-height: 40px;
   }
   .quote-form {
-    padding: 40px 20px 49px;
+    padding: 40px 0px 49px;
   }
   .quote-form h2 {
     font-size: 42px;
@@ -49,7 +49,7 @@
     max-width: 370px;
   }
   .services-section .txt-box {
-    padding: 0 0 0 8.5%;
+    padding: 0 0 0 10px;
   }
   .main-banner .arrow {
     width: 135px;
@@ -60,13 +60,54 @@
     font-size: 50px;
     line-height: 60px;
   }
+  .counter-section .row .col-sm-3{
+    padding-bottom: 20px !important;
+  }
+  .price-section header + .row{
+    align-items: center;
+    justify-content: center;
+  }
+  .services-section img{
+    transform: scale(1) !important;
+  }
+  .services-section .row{
+    flex-direction: column-reverse;
+  }
+  .counter-section .container {
+    padding: 50px 14px 26px 14px;
+    border-radius: 20px;
+  }
+  .image-col{
+    padding-bottom: 0 !important;
+  }
+  .faq-section h2.main-color {
+    font-size: 35px;
+  }
+  .faq-section .accordion .accordion-button{
+    font-size: 18px;
+  }
+  #footer .top-list li{
+    padding: 0 62px 0 0;
+  }
+  #footer .top-list li:last-child{
+    margin-top: 14px;
+  }
+  #footer .top-list li {
+    padding: 0 32px 0 62px;
+  }
 }
 
 @media (max-width: 767px) {
+  .faq-section h2.main-color {
+    font-size: 33px;
+  }
   .mt-social,
-  .main-banner .arrow,
-  #header .top-list {
+  .main-banner .arrow{
     display: none;
+  }
+  #header .top-list{
+    text-align: right !important;
+    padding: 0 0 0 0;
   }
   #header {
     padding: 20px 0;
@@ -74,11 +115,23 @@
   #header .nav-opener {
     display: inline-block;
   }
+  #footer .top-list li:last-child{
+    margin-top: 0 !important;
+  }
+  #footer .top-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #footer .bottom p{
+    text-align: center;
+  }
   #header.sticky {
     top: 0;
     left: 0;
     right: 0;
     position: fixed;
+    z-index: 9;
   }
   #header.sticky #nav {
     top: 100%;
@@ -173,4 +226,64 @@
   .lightbox .quote-form {
     width: 100%;
   }
+  .faq-section .accordion .accordion-button{
+    font-size: 17px;
+  }
 }
+@media only screen and (max-width: 600px){
+  /* .counter-section .container{
+    border-radius: 20px;
+  } */
+  .logo img {
+    width: 130px;
+  }
+  #header .btn.btn-default {
+    font-size: 13px;
+    padding: 8px 22px 8px 22px;
+  }
+  .price-box{
+    max-width: 380px;
+    margin: auto;
+  }
+  .services-section.pad-top-lg{
+    padding-bottom: 0 !important;
+  }
+
+  .faq-section .accordion .accordion-button {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 576px){
+  #header .row .col-sm-8,
+  #header .row .col-sm-4{
+    width: 50%;
+  }
+  .faq-section h2.main-color {
+    font-size: 27px;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 480px){
+  #footer .top-list{
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 210px;
+    margin: auto;    
+    padding-top: 0;
+  }
+  #footer .top-list li {
+    padding: 0 0 0 62px;
+  }
+  #footer .bottom p{
+    padding-top: 13px;
+  }
+  #footer .top-list li:last-child {
+    margin-top: 14px !important;
+  }
+  #footer .row{
+    flex-direction: column-reverse;
+  }
+}
+
+
+

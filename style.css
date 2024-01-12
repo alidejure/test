@@ -1065,7 +1065,8 @@ body.boxed-v #wrapper {
 	right: 40px;
 	width: 185px;
 	height: 103px;
-	bottom: -39px;
+	/* bottom: -39px; */
+	bottom: 80px;
 	position: absolute;
 	background-size: cover;
 	background-position: center;
@@ -1215,9 +1216,9 @@ body.boxed-v #wrapper {
 	border-radius: 3px;
 	/* padding: 56px 30px 69px; */
 	padding: 0;
-	background-color: #fff;
-	background-repeat: no-repeat;
-	background-position: -470px -270px;
+	/* background-color: #fff; */
+	/* background-repeat: no-repeat; */
+	/* background-position: -470px -270px; */
 }
 
 .quote-form .form-heading {
@@ -1528,7 +1529,11 @@ body.boxed-v #wrapper {
 	background: #fff;
 	border: 1px solid #eee;
 	border-radius: 15px;
+	height: 100%;
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .price-box .header {
@@ -1858,7 +1863,7 @@ body.boxed-v #wrapper {
     background: none !important;
     position: absolute;
 	right: 30px;
-    top: 29px;
+    /* top: 29px; */
     width: 14px;
     height: 14px;
     font-size: 15px;
@@ -1871,7 +1876,7 @@ body.boxed-v #wrapper {
 .faq-section .accordion .accordion-button{
 	font-size: 20px;
 	background: transparent !important;
-	padding: 25px 21px;
+	padding: 25px 60px 25px 21px;
 	border-radius: 6px;
 	border: none !important;
 	box-shadow: none !important;
