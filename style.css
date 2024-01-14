@@ -825,10 +825,15 @@ body.boxed-v #wrapper {
 .price-section .main-heading .heading {
 	color: #fff;
 }
+.about-section .heading {
+	max-width: 600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .main-heading .heading {
-	color: #333;
+	color: #5b5959;
 	margin: 0 0 18px;
-	font: 700 28px/30px 'Poppins', sans-serif;;
+	font: 700 35px/1.3 'Poppins', sans-serif;;
 }
 
 .main-heading p {
@@ -1066,7 +1071,7 @@ body.boxed-v #wrapper {
 	width: 185px;
 	height: 103px;
 	/* bottom: -39px; */
-	bottom: 80px;
+	bottom: 180px;
 	position: absolute;
 	background-size: cover;
 	background-position: center;
@@ -1344,11 +1349,11 @@ body.boxed-v #wrapper {
 .about-box {
 	line-height: 22px;
 }
-.about-box:hover .num.main-color{
+/* .about-box:hover .num.main-color{
 	filter: grayscale(0%);
-}
+} */
 .about-box .num.main-color{
-	filter: grayscale(100%);
+	/* filter: grayscale(100%); */
 	transition: all 0.2s;
 }
 .about-box .num {
@@ -1516,6 +1521,7 @@ body.boxed-v #wrapper {
 
 .services-section .txt-box .list li {
 	margin: 0 0 11px;
+	color: #5b5959;
 }
 
 /*------------------------------------------------------------------
@@ -1898,6 +1904,16 @@ body.boxed-v #wrapper {
 .faq-section{
 	padding: 60px 0 100px 0;
 }
+.logo-row .col{
+	text-align: center;
+}
+.logo-row{
+	padding-bottom: 50px;
+}
+.logo-row img {
+    height: 50px;
+    object-fit: contain;
+}
 @media (min-width: 768px) {
 	.commentlist-item .commentlist-item {
 		padding: 0 0 0 2em;
@@ -2010,3 +2026,88 @@ body.boxed-v #wrapper {
                 transform: scaleY(1);
     }
 }
+
+
+
+
+
+/*-----Testimonial-------*/
+
+.testimonial .heading{
+	font-size: 38px !important;
+    text-transform: capitalize !important;
+    font-weight: 600;
+    color: #ff7400;
+	margin-bottom:50px;
+}
+.testimonial {
+    min-height: 375px;
+    position: relative;
+    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+        background-size: cover;
+}
+
+
+/* 
+.testimonial4_slide{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+} */
+.testimonial .carousel-control-prev-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff7400'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.testimonial .carousel-control-next-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff7400'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.testimonial4_slide{
+	max-width: 870px;
+    margin: auto;
+}
+.testimonial4_slide img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+.testimonial4_slide p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+.testimonial4_slide h4 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.testimonial .carousel {
+	padding-bottom:50px;
+}
+.testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+}
+/* ------testimonial  close-------*/
