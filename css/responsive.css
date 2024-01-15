@@ -98,6 +98,16 @@
   #footer .top-list li {
     padding: 0 32px 0 62px;
   }
+  #footer .row{
+    flex-direction: column-reverse;
+  }
+  .footer-links{
+    justify-content: center;
+  }
+  #footer .bottom p{
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -279,6 +289,12 @@
   }
   .testimonial .heading{
     margin-bottom: 0;
+  }
+  .footer-links{
+    flex-wrap: wrap;
+  }
+  .footer-links li a{
+    margin: 0 12px 10px 10px;
   }
 }
 @media only screen and (max-width: 576px){

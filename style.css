@@ -2116,4 +2116,27 @@ body.boxed-v #wrapper {
     width: 35px;
     height: 35px;
 }
+.footer-links li a i{
+	color: #ff7400;
+}
+.footer-links li a{
+	color: #fff;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 0 12px 0 10px;
+}
+.footer-links img{
+	margin-right: 6px;
+}
+.footer-links{
+	padding: 0;
+	list-style: none;
+	display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 0;
+}
+.footer-links-main{
+	text-align: right;
+}
 /* ------testimonial  close-------*/
