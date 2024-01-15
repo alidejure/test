@@ -1908,11 +1908,14 @@ body.boxed-v #wrapper {
 	text-align: center;
 }
 .logo-row{
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 }
 .logo-row img {
     height: 50px;
     object-fit: contain;
+}
+.testimonial .heading span{
+	color: #fff;
 }
 @media (min-width: 768px) {
 	.commentlist-item .commentlist-item {
@@ -2040,12 +2043,15 @@ body.boxed-v #wrapper {
     color: #ff7400;
 	margin-bottom:50px;
 }
+.testimonial .carousel-indicators [data-bs-target]{
+	background-color: #ff7400;
+}
 .testimonial {
     min-height: 375px;
     position: relative;
-    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background: url(images/testimonials.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-position: center;
         background-size: cover;
 }
