@@ -971,7 +971,10 @@ body.boxed-v #wrapper {
 }
 #footer .row{
 	display: flex;
-	align-items: center;
+	align-items: end;
+}
+.logo-row img.snap-logo{
+	height: 58px;
 }
 #footer .top-list li {
 	padding: 0 11.8% 0 7%;
@@ -1379,7 +1382,11 @@ body.boxed-v #wrapper {
 }
 
 .about-box p {
+	color: #333;
 	margin: 0 0 20px;
+}
+.services-section .main-heading p{
+	color: #333;
 }
 
 /*------------------------------------------------------------------
@@ -2119,20 +2126,25 @@ body.boxed-v #wrapper {
 .footer-links li a i{
 	color: #ff7400;
 }
+.footer-links li{
+	display: flex;
+	flex-direction: row-reverse;
+}
 .footer-links li a{
 	color: #fff;
     display: flex;
     /* flex-direction: row-reverse; */
-    margin: 0 12px 0 10px;
+    margin: 0 12px 5px 10px;
 }
 .footer-links img{
-	margin-right: 6px;
+	margin-left: 6px;
 }
 .footer-links{
 	padding: 0;
 	list-style: none;
 	display: flex;
-    align-items: center;
+	flex-direction: column;
+    align-items: end;
     justify-content: end;
     margin-bottom: 0;
 }

@@ -102,7 +102,20 @@
     flex-direction: column-reverse;
   }
   .footer-links{
+    max-width: 400px;
+    margin: auto;
     justify-content: center;
+    align-items: flex-start;
+  }
+  .footer-links li a{
+    flex-direction: row-reverse;
+  }
+  .footer-links img{
+    margin-left: 0;
+    width: 15px;
+    height: 22px;
+    object-fit: none;
+    margin-right: 6px;
   }
   #footer .bottom p{
     text-align: center;
@@ -308,6 +321,9 @@
   }
   .about-section.pad-top-lg, .price-section.pad-top-lg{
     padding-top: 70px !important;
+  }
+  .logo-row{
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 480px){
